@@ -1,0 +1,24 @@
+{
+  "name": "genkit-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@genkit-ai/dotprompt": "^0.9.12",
+    "@genkit-ai/evaluator": "^1.21.0",
+    "@genkit-ai/google-genai": "^1.21.0",
+    "genkit": "^1.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

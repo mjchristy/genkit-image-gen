@@ -1,0 +1,12 @@
+---
+name: startingPrompt
+model: google-ai/gemini-2.5-flash-image
+responseModalities: 
+  - 'TEXT'
+  - 'IMAGE'
+---
+
+Please expand on the idea of {{decorStyle}} to help Gemini make a great image.
+IMPORTANT: PLEASE say in the prompt that you want to modify the existing image 
+to use the decor style specified. {{startingImage}}
+

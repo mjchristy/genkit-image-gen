@@ -1,0 +1,134 @@
+{
+  "c47114b5-b762-4845-911b-71672144847d": {
+    "evalRunId": "c47114b5-b762-4845-911b-71672144847d",
+    "createdAt": "2025-10-22T20:41:47.687Z",
+    "metricSummaries": [],
+    "datasetId": "my-test-dataset",
+    "datasetVersion": 3,
+    "actionRef": "/flow/inspirationFlow"
+  },
+  "587b0afd-b8ea-4ea5-8ebe-6d5d6bbcf085": {
+    "evalRunId": "587b0afd-b8ea-4ea5-8ebe-6d5d6bbcf085",
+    "createdAt": "2025-10-27T14:45:29.147Z",
+    "metricSummaries": [
+      {
+        "evaluator": "/evaluator/genkitEval/maliciousness",
+        "testCaseCount": 1,
+        "errorCount": 0,
+        "scoreUndefinedCount": 0,
+        "statusDistribution": {
+          "PASS": 1
+        },
+        "averageScore": 0
+      }
+    ],
+    "datasetId": "dog-dataset",
+    "datasetVersion": 2,
+    "actionRef": "/flow/qaFlow"
+  },
+  "03c4e1c5-e04c-4635-85cf-fe217d75e944": {
+    "evalRunId": "03c4e1c5-e04c-4635-85cf-fe217d75e944",
+    "createdAt": "2025-10-27T14:47:37.162Z",
+    "metricSummaries": [
+      {
+        "evaluator": "/evaluator/genkitEval/maliciousness",
+        "testCaseCount": 2,
+        "errorCount": 0,
+        "scoreUndefinedCount": 0,
+        "statusDistribution": {
+          "PASS": 2
+        },
+        "averageScore": 0
+      }
+    ],
+    "datasetId": "dog-dataset",
+    "datasetVersion": 3,
+    "actionRef": "/flow/qaFlow"
+  },
+  "9357ee68-ae5f-4223-bcf2-8fb152d9471d": {
+    "evalRunId": "9357ee68-ae5f-4223-bcf2-8fb152d9471d",
+    "createdAt": "2025-10-27T15:18:57.587Z",
+    "metricSummaries": [
+      {
+        "evaluator": "/evaluator/genkitEval/maliciousness",
+        "testCaseCount": 2,
+        "errorCount": 0,
+        "scoreUndefinedCount": 0,
+        "statusDistribution": {
+          "PASS": 2
+        },
+        "averageScore": 0
+      }
+    ],
+    "datasetId": "dog-dataset",
+    "datasetVersion": 3,
+    "actionRef": "/flow/qaFlow"
+  },
+  "ba46a267-4a2f-44d3-a82c-fc5213d0a833": {
+    "evalRunId": "ba46a267-4a2f-44d3-a82c-fc5213d0a833",
+    "createdAt": "2025-10-27T21:06:05.462Z",
+    "metricSummaries": [],
+    "datasetId": "my-test-dataset",
+    "datasetVersion": 4,
+    "actionRef": "/flow/inspirationFlow"
+  },
+  "ed242a90-d625-4f6e-8a95-4c006103d192": {
+    "evalRunId": "ed242a90-d625-4f6e-8a95-4c006103d192",
+    "createdAt": "2025-10-28T14:17:48.797Z",
+    "metricSummaries": [
+      {
+        "evaluator": "/evaluator/genkitEval/maliciousness",
+        "testCaseCount": 2,
+        "errorCount": 0,
+        "scoreUndefinedCount": 0,
+        "statusDistribution": {
+          "PASS": 2
+        },
+        "averageScore": 0
+      }
+    ],
+    "datasetId": "model-dataset",
+    "datasetVersion": 3,
+    "actionRef": "/model/googleai/gemini-2.5-flash",
+    "actionConfig": {}
+  },
+  "c3d2bbe6-38df-4514-896a-95f836a37bfa": {
+    "evalRunId": "c3d2bbe6-38df-4514-896a-95f836a37bfa",
+    "createdAt": "2025-10-28T14:18:33.997Z",
+    "metricSummaries": [
+      {
+        "evaluator": "/evaluator/genkitEval/maliciousness",
+        "testCaseCount": 2,
+        "errorCount": 0,
+        "scoreUndefinedCount": 0,
+        "statusDistribution": {
+          "PASS": 2
+        },
+        "averageScore": 0
+      }
+    ],
+    "datasetId": "model-dataset",
+    "datasetVersion": 3,
+    "actionRef": "/model/googleai/gemini-2.5-flash-lite",
+    "actionConfig": {}
+  },
+  "a56f4eaf-edad-406e-9523-8834d4b6ee35": {
+    "evalRunId": "a56f4eaf-edad-406e-9523-8834d4b6ee35",
+    "createdAt": "2025-10-28T14:24:39.655Z",
+    "metricSummaries": [
+      {
+        "evaluator": "/evaluator/genkitEval/maliciousness",
+        "testCaseCount": 2,
+        "errorCount": 0,
+        "scoreUndefinedCount": 0,
+        "statusDistribution": {
+          "PASS": 2
+        },
+        "averageScore": 0
+      }
+    ],
+    "datasetId": "dog-dataset",
+    "datasetVersion": 3,
+    "actionRef": "/flow/qaFlow"
+  }
+}
